@@ -1,0 +1,93 @@
+<html>
+<head>
+    <title>Weather Map</title>
+
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width">
+
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700' rel='stylesheet' type='text/css'/>
+
+    <link href='app/api/theme/default/style.css' rel='stylesheet' type='text/css'/>
+    <link href='app/api/theme/default/main.css' rel='stylesheet' type='text/css'/>
+
+    <link rel="stylesheet" type="text/css" href="app/css/main.css">
+    <link rel="stylesheet" type="text/css" href="app/css/sidebar.css">
+
+    <!--<script src="http://openlayers.org/api/OpenLayers.js"></script>-->
+    <script src="app/api/OpenLayers.js"></script>
+    <script src="app/api/OWM.OpenLayers.1.3.4.js" ></script>
+    <!--<script src="app/api/OWM.OpenLayers.1.3.4.js" ></script>-->
+
+    <script src="app/js/init.js"></script>
+    <script src="app/js/app.js"></script>
+	
+</head>
+<body>
+<div class="content">
+    <div class="toolbar">
+        <span class="closeWindow" rel="tooltip"  title="Close application">
+            <div class="glyph">
+                <div class="fs1" aria-hidden="true" data-icon=""></div>
+            </div>
+        </span>
+    </div>
+    <div class="main">
+        <div class="loading">
+            <div class="ajax-loader"></div>
+        </div>
+        <div id="basicMap" style=""></div>
+    </div>
+    <div class="sidebar">
+        <a class="tiles blue" id="pressure">
+            <span class="icon radioactive"></span>
+            <span class="big-content">
+                <span class="mini-content">&#9679; &#9679; &#9679;</span>
+               DIY线路 
+            </span>
+        </a>
+        <a class="tiles green" id="temp">
+            <span class="icon fahrenheit"></span>
+            <span class="big-content">
+                <span class="mini-content">&#9679; &#9679; &#9679;</span>
+               我的订单 
+            </span>
+        </a>
+        <a class="tiles violet" id="wind">
+            <span class="icon skydrive"></span>
+            <span class="big-content">
+                <span class="mini-content">&#9679; &#9679; &#9679;</span>
+                热推路线
+            </span>
+        </a>
+        <a class="tiles blue" id="cloud">
+            <span class="icon overcast"></span>
+            <span class="big-content">
+                <span class="mini-content">&#9679; &#9679; &#9679;</span>
+                景点介绍
+            </span>
+        </a>
+        <a class="tiles green" id="precipitation">
+            <span class="icon chance"></span>
+            <span class="big-content">
+                <span class="mini-content">&#9679; &#9679; &#9679;</span>
+                旅游装备 
+            </span>
+        </a>
+        <a class="tiles violet" id="rain">
+            <span class="icon rain"></span>
+            <span class="big-content">
+                <span class="mini-content">&#9679; &#9679; &#9679;</span>
+                记录分享
+            </span>
+        </a>
+        <a class="tiles blue" id="snow">
+            <span class="icon snowflake"></span>
+            <span class="big-content">
+                <span class="mini-content">&#9679; &#9679; &#9679;</span>
+                联系我们
+            </span>
+        </a>
+    </div>
+</div>
+</body>
+</html>

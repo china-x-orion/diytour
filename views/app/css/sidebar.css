@@ -1,0 +1,127 @@
+.green{
+    background: #00aba9;
+}
+
+.blue{
+    background: #2e8bcc;
+}
+
+.violet{
+    background: #781096
+}
+
+.content .sidebar{
+    float: right;
+    width: 13%;
+    /*height: 600px;*/
+    height: 101%;
+    /*padding-top: 40px;*/
+    border-left: 1px solid #dcdcdc;
+    overflow-y: auto;
+}
+
+.content .sidebar:hover{
+    -webkit-box-shadow: -3px 0px 5px rgba(50, 50, 50, 0.75);
+    box-shadow:         -3px 0px 5px rgba(50, 50, 50, 0.75);
+}
+
+a.tiles{
+    display: block;
+    width: 200px;
+    height: 125px;
+    margin: 10px auto;
+    position: relative;
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+a.tiles:hover{
+    outline: 3px #225a68 solid;
+    opacity: 1;
+}
+
+span.icon{
+    display: block;
+    margin: 10px auto;
+    width: 70px;
+    height: 70px;
+}
+
+a.tiles:hover span.icon{
+    opacity: 0.4;
+}
+
+span.big-content{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    /*background: transparent;*/
+    background: #f09609;
+    opacity: 0.5;
+    color: transparent;
+    height: 45px;
+    text-align: center;
+    padding-top: 5px;
+    font-weight: bold;
+}
+
+span.big-content:hover{
+    background: #f09609;
+    color: black;
+    opacity: 1;
+}
+
+span.mini-content{
+    font-size: 16px;
+    color: black;
+    text-align: center;
+    display: block;
+    width: 100%;
+}
+
+span.big-content:hover span.mini-content{
+    display: none;
+}
+
+.globe{
+    background:
+        url("../img/appbar.globe.svg") no-repeat center;
+}
+
+.map{
+    background:
+        url("../img/appbar.map.satellite.svg") no-repeat center;
+}
+
+.fahrenheit{
+    background: url("../img/appbar.measure.farenheit.svg") no-repeat center;
+}
+
+.radioactive{
+    background: url("../img/14.png") no-repeat center;
+}
+
+.skydrive{
+    background: url("../img/appbar.skydrive.svg") no-repeat center;
+}
+
+.snowflake{
+    background: url("../img/appbar.snowflake.svg") no-repeat center;
+}
+
+.chance{
+    background: url("../img/appbar.weather.chance.svg") no-repeat center;
+}
+
+.overcast{
+    background: url("../img/appbar.weather.overcast.svg") no-repeat center;
+}
+
+.rain{
+    background: url("../img/appbar.weather.rain.svg") no-repeat center;
+}
+
+
+
+
